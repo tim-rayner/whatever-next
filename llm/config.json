@@ -1,4 +1,7 @@
 {
+  "defaultRules": [
+    "ubiquitous-language.md"
+  ],
   "modules": [
     { "rule": "api.md", "path": "src/api", "description": "tRPC API routers and setup" },
     { "rule": "app.md", "path": "src/app", "description": "Next.js App Router pages and layouts" },

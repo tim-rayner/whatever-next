@@ -49,9 +49,10 @@ This repo ships context rules for AI coding tools so they understand the stack c
 
 ```
 llm/
-  config.json        Target tools + module-to-path mapping
+  config.json        Targets, defaults, and module-to-path mapping
   rules/
     root.md          Project-wide rules (stack, conventions, layout)
+    ubiquitous-language.md  Shared glossary and domain language defaults
     api.md           tRPC router conventions
     app.md           Next.js App Router conventions
     lib.md           tRPC client/server usage
@@ -60,6 +61,8 @@ llm/
 ```
 
 Edit files in `llm/rules/`. Never edit the generated files directly.
+
+The harness includes `ubiquitous-language.md` as a default root-level rule, so DDD glossary and naming guidance is applied to every target during sync.
 
 ### Generated outputs
 
