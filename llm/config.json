@@ -1,0 +1,16 @@
+{
+  "modules": [
+    { "rule": "api.md", "path": "src/api", "description": "tRPC API routers and setup" },
+    { "rule": "app.md", "path": "src/app", "description": "Next.js App Router pages and layouts" },
+    { "rule": "lib.md", "path": "src/lib", "description": "Shared utilities and tRPC client setup" },
+    { "rule": "theme.md", "path": "src/theme", "description": "MUI theme configuration" }
+  ],
+  "targets": {
+    "claudeCode": true,
+    "cursor": true,
+    "copilot": true,
+    "windsurf": true,
+    "codex": true,
+    "cline": true
+  }
+}
