@@ -2,7 +2,9 @@
 
 ## Glossary
 
-- **world**: The internet as we know it.
+> **Domain language is not defined yet.**
+> Ask the developer what the project's core domain entities are, then populate this glossary before writing any domain-facing code.
+> Remove this notice once real terms are added.
 
 ## DDD usage policy for agents
 
@@ -13,18 +15,15 @@
 
 ## Naming guidance
 
-Prefer names aligned to glossary terms:
+Once terms are defined, prefer names aligned to glossary terms. For example, if the domain has a `Project` entity:
 
-- `WorldService`
-- `WorldId`
-- `WorldCreated`
+- `ProjectService`
+- `ProjectId`
+- `ProjectCreated`
 
-Avoid unapproved synonyms for the same concept:
-
-- `InternetService`
-- `GlobalThing`
+Avoid unapproved synonyms for the same concept.
 
 ## Bounded context and translation
 
-- If a term has different meanings across bounded contexts, qualify names and document both meanings in this glossary (for example `BillingWorld` vs `SocialWorld`).
+- If a term has different meanings across bounded contexts, qualify names and document both meanings in this glossary.
 - Keep domain language in the domain layer; map infrastructure or external API terminology at boundaries (anti-corruption layer).

@@ -2,7 +2,7 @@
 
 ## Page structure
 
-Each route lives in `src/app/pages/{name}/`:
+Each route lives in `src/app/{name}/`:
 - `page.tsx` — async Server Component; fetches data, exports `generateMetadata`
 - `{Name}Client.tsx` — Client Component (`"use client"`); handles interactivity
 
