@@ -43,7 +43,6 @@ next-env.d.ts
 # generated LLM rule outputs (source files live in llm/rules/*.md)
 /.cursor/rules/*.mdc
 /CLAUDE.md
-/AGENTS.md
 /.github/copilot-instructions.md
 /.windsurfrules
 /.clinerules
